@@ -7,6 +7,7 @@
       if (dateInput) {
         dateInput.valueAsDate = new Date();
       }
+    
     }, []);
    
 
@@ -15,7 +16,7 @@
         {lbl.map((label, index) => (
           <div key={index} className={style.inp}>
             <label>{label}</label>
-            <input type={type[index]} /> 
+            <input type={type[index]} required/> 
           </div>
         ))}
       </div>
