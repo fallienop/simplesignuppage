@@ -1,0 +1,32 @@
+.inp{
+    display: flex;
+    flex-direction: column;
+}
+.inp input{
+    width: 18.65vw;
+    height: 2.85vw;
+    border-radius: 0.26vw;
+    border: 0.0052vw solid #D1D1D1;
+    background-color: #FFF;
+    padding-left: 0.26vw;
+}
+.inp label{
+    font-size: 0.73vw;
+    line-height: 140%;  
+    letter-spacing: -0.015vw;
+    color:#2D3748;
+    margin-bottom: 0.21vw;
+}   
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.6667vw;
+    width: 40.8vw;
+    height: 14.95vw;
+}
+
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}

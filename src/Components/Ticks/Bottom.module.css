@@ -1,0 +1,75 @@
+.bottomMain{
+    margin-top: 1.25vw;
+   
+}
+.bottomMain label{
+    font-size: 0.73vw;
+    line-height: 140%;
+    color:#2D3748;
+    margin-bottom: 0.26vw;
+}
+.bottomMain input[type='radio']{
+    box-sizing: border-box;
+    appearance: none;
+    background: none;
+    outline: 0.05vw solid #D1D1D1;
+    border: 0.15625vw solid white;
+    width: 1.04vw;
+    height: 1.04vw;
+    margin: 0;
+    margin-right: 0.625vw;
+  
+}
+
+.radioButtons{
+    margin-top: 2.25vw;
+}
+.bottomMain input[type='radio']:checked{
+    background: cyan;
+
+}
+    .signwithgoogle{
+        background-color: #2D3748;
+        width: 19.2vw;
+        height: 2.5vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:0.625vw;
+    }
+
+    .bottomMain img{
+        width: 1.04vw;
+        height: 1.04vw;
+    }
+
+    .accountCreate{
+        color: white;
+        background-color: #007AFF;
+        width: 19.2vw;
+        height: 2.5vw;
+    }
+
+    .signButtons{
+        display: flex;
+        flex-direction: row;
+        gap:1.667vw;    
+        margin-top: 1.67vw;
+
+    }
+
+    a{
+        color:Blue;
+        text-decoration: none;
+    }
+    .forget{
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 1.67vw;
+    }
+
+    button{
+        font-size: 0.73vw;
+        font-weight: 600;
+    }

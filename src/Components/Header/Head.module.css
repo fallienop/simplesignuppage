@@ -1,0 +1,39 @@
+.topofpage{
+display: flex;
+flex-direction: row;
+margin-bottom: 3.18vw;
+}
+.topofpage img{
+width: 2.2vw;
+height: 2.5vw;
+}
+.topofpage h2{
+    margin: 0;
+    font-size: 0.9375vw;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 0.6vw;
+    margin-left: 0.68vw;
+}
+
+.pageInfo{
+margin-bottom: 2.9vw;
+}
+
+.pageInfo h1{
+    margin: 0;
+    font-weight: 600;
+    line-height: 140%;
+    font-size: 1.46vw;
+    margin-bottom: 0.42vw;
+}
+
+.pageInfo p{
+    margin: 0;
+    
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 0.73vw;
+    color:#2D3748;
+    
+}
